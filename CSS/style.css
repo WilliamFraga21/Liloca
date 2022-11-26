@@ -3,172 +3,63 @@
 *{
     padding: 0px ;
     margin: 0px;
+    text-decoration: none;
 }
 
-
-body{
-    /* background-color: navajowhite; */
-    background-color:darksalmon;
+img {
+    max-width: 100%;
+    display: block;
 }
-.topo1{
+
+img-corousel {
+    height: 50px;
+}
+
+.title {
+    font-style: italic;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.header {
+    padding: 20px 20px;
     background-color: chocolate;
     border: 3px solid black;
     text-align: center;
-    font-style: italic;
-    font-family: 'Pacifico', cursive;
-    font-size: 20px;
-}
-.nav{
-    display: inline;
-    justify-content: end;
-}
-.Menu1{
-  background-color: rgb(125, 60, 13) ;
-  border: 2px solid black;
-  /* margin: 0px; */
-  /* padding: 22px; */
-  /* overflow: hidden; */
-  list-style-type: none;
-  display: flex;
-  justify-content:end;
-  gap: 7px;
-  /* align-items:end; */
-
-}
-.Menu1 li {
-    display: block;
-    padding: 5px 5px;
 }
 
-
-.Menu1 li a,.dropbotao{
-    background-color: rgba(97, 42, 3);
-    border: 2px solid black;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    display: inline-flex;
-    margin-top: 5px;
-    padding-left: 7px;
-    padding-top: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
-    /* position: absolute; */
-    
-    
-
-
-}
-.Menu1 li a:hover,#dropdown:hover .dropbotao{
-    background-color: rgb(253, 94, 8);
+.container-bolos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
-
-#dropdown{
-    
-    display: inline-block;
-}
-/* 
-.dropbotao{
-
-
-
-} */
-
-
-.dropdown-content{
-
-    display: none;
-    position: absolute;
-    background-color: chocolate;
-    width: 76px;
-    border: 2px solid black;
+.container-bolos .bolos {
+    flex: 1 1 300px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 10px black;
     border-radius: 5px;
-    padding: 8px;
-    margin: 8px;
-    /* align-items: center; */
-
-
 }
 
-.dropdown-content a{
-    color: black;
-    display: block;
-    text-align: right;
-    border: 2px solid black;
-}
-
-#dropdown:hover .dropdown-content{
-    display: block;
-}
-
-
-.bolos{
-
-    border: 6px double black;
-    display: inline-block;
-    max-width: 47%;
-    margin: 5px;
-    border-radius: 5px;
-
-}
-
-.bolos img{
-    width: 400px;
-    height: 350px;
-    float: left;
-    padding: 4px;
-    margin: 5px;
-}
-.bolos p {
-    margin: 7px;
-    font-size: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-}
-
-.contato p , h2{
-    margin: 5px;
+.container-bolos .bolos .bolo-title {
+    background: chocolate;
     padding: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.contato h2{
+.bolo-title h2 {
     text-align: center;
-    font-size: 25px;
 }
 
-.whatsapp{
-    float: right;
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-}
-.whatsapp img {
-    height: 80px;
-
+.bolo-text {
+    font-size: .9rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
 }
 
-.Registre{
-
-    background-color: chocolate;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin: 4px;
-    padding: 4px;
-
-
+.container-bolos .bolos img {
+    padding-bottom: 10px;
 }
-
-.Registre:hover{
-
-    background-color: rgb(247, 160, 98);
-    
-
-}
-
