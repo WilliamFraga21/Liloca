@@ -150,15 +150,15 @@
                     ?>
                         <div>
                             <h2>Enfeites</h2>
-                            <table border="1">
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Nome</th>
-                                    <th>Cor</th>
-
-                                    <th>Ação</th>
-                                </tr>
-
+                            <table border="1" class="table table-striped text-center">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nome</th>
+                                        <th>Cor</th>
+                                        <th>Ação</th>
+                                    </tr>
+                                </thead>
                                 <?php foreach ($lista as $produtos) { ?>
 
                                     <tr>
@@ -195,15 +195,18 @@
                     ?>
                         <div>
                             <h2>Bebidas</h2>
-                            <table border="1">
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Nome</th>
-                                    <th>Litros</th>
-                                    <th>Marca</th>
-                                    <th>Sabor</th>
-                                    <th>Ação</th>
-                                </tr>
+                            <table border="1" class="table table-striped text-center">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nome</th>
+                                        <th>Litros</th>
+                                        <th>Marca</th>
+                                        <th>Sabor</th>
+                                        <th>Ação</th>
+                                    </tr>
+                                </thead>
+
 
                                 <?php foreach ($lista as $produtos) { ?>
 
@@ -239,16 +242,19 @@
                     ?>
                         <div>
                             <h2>Clientes</h2>
-                            <table border="1">
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Nome</th>
-                                    <th>CPF</th>
-                                    <th>Telefone</th>
-                                    <th>E-mail</th>
-                                    <th>Senha</th>
-                                    <th>Ação</th>
-                                </tr>
+                            <table border="1" class="table table-striped text-center">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nome</th>
+                                        <th>CPF</th>
+                                        <th>Telefone</th>
+                                        <th>E-mail</th>
+                                        <th>Senha</th>
+                                        <th>Ação</th>
+                                    </tr>
+                                </thead>
+
 
                                 <?php foreach ($lista as $produtos) { ?>
 
@@ -286,17 +292,20 @@
                     ?>
                         <div>
                             <h2>Aniversariantes</h2>
-                            <table border="1">
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Nome</th>
-                                    <th>Idade</th>
-                                    <th>Tema</th>
-                                    <th>Cores</th>
-                                    <th>Data Da Festa</th>
-                                    <th>Nome Do Cliente</th>
-                                    <th>Ação</th>
-                                </tr>
+                            <table border="1" class="table table-striped text-center">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nome</th>
+                                        <th>Idade</th>
+                                        <th>Tema</th>
+                                        <th>Cores</th>
+                                        <th>Data Da Festa</th>
+                                        <th>Nome Do Cliente</th>
+                                        <th>Ação</th>
+                                    </tr>
+                                </thead>
+
 
                                 <?php foreach ($lista as $produtos) { ?>
 
@@ -336,23 +345,23 @@
                     ?>
                         <div>
                             <h2>Pedidos</h2>
-                            <table border="1">
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Endereço do Cliente</th>
-                                    <th>Tipo Da Entrega</th>
-                                    <th>Frete</th>
-                                    <th>Valor do Pedido</th>
-                                    <th>Valor do Sinal</th>
-                                    <th>Valor A Pagar</th>
-                                    <th>Prazo de Entrega</th>
-                                    <th>Data do Pedido</th>
-                                    <th>Data da Entrega</th>
-                                    <th>Nome do Aniversariante</th>
-
-                                    <th>Ação</th>
-                                </tr>
-
+                            <table border="1" class="table table-striped text-center">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Endereço do Cliente</th>
+                                        <th>Tipo Da Entrega</th>
+                                        <th>Frete</th>
+                                        <th>Valor do Pedido</th>
+                                        <th>Valor do Sinal</th>
+                                        <th>Valor A Pagar</th>
+                                        <th>Prazo de Entrega</th>
+                                        <th>Data do Pedido</th>
+                                        <th>Data da Entrega</th>
+                                        <th>Nome do Aniversariante</th>
+                                        <th>Ação</th>
+                                    </tr>
+                                </thead>
                                 <?php foreach ($lista as $produtos) { ?>
 
                                     <tr>

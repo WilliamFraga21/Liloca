@@ -1,7 +1,7 @@
 <?php
 
 try {
-  $conn = new PDO('mysql:host=localhost;dbname=liloca', 'root', 'root');
+  $conn = new PDO('mysql:host=localhost;dbname=liloca', 'root', '');
   // echo 'Conectou';
 } catch (PDOException $e) {
   echo 'ERROR: ' . $e->getMessage();
@@ -9,7 +9,7 @@ try {
 
 function lastId()
 {
-  $conn = new PDO('mysql:host=localhost;dbname=liloca', 'root', 'root');
+  $conn = new PDO('mysql:host=localhost;dbname=liloca', 'root', '');
   return $conn->lastInsertId();
 }
 
